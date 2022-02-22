@@ -1,0 +1,21 @@
+#map {
+  height: 700px;
+  width: 1000px;
+  background-color: gray;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#map::before {
+  content: "LOADING";
+  font-size: 3em;
+  text-align: center;
+  width: 100%;
+  position: absolute;
+  margin-top: 3em;
+}
+
+.leaflet-popup-content-wrapper {
+  width: 100%;
+}
